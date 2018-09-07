@@ -25,23 +25,39 @@ package com.leetcode.lxyer.answers;
  */
 public class ReverseInteger{
 	/**
-	 * cost
+	 * cost 46ms
 	 */
-	public int reverse(int x){
-		boolean up = x > 0 ? true : false;
-		int digits = String.valueOf(Math.abs(x)).length();
-		int res = 0;
-		String string = String.valueOf(Math.abs(x));
-		for(int i = 0;i < digits;i++){
-			int num = Integer.parseInt(string.substring(i,i + 1));
-			int num1 = (int)Math.pow(10, i);
-			int num2 = num * num1;
-			res += Integer.parseInt(string.substring(i,i + 1)) * (int)Math.pow(10, i);
+	public int reverse1(int n){
+		int reversed_n = 0;
+		while(n != 0){
+			int temp = reversed_n * 10 + n % 10;
+			n = n / 10;
+			if(temp / 10 != reversed_n){
+				reversed_n = 0;
+				break;
+			}
+			reversed_n = temp;
 		}
-		if(! up){
-			res *= (- 1);
+		return reversed_n;
+	}
+	
+	/**
+	 * cost 46ms
+	 */
+	public int reverse2(int x){
+		int rev = 0;
+		while(x != 0){
+			int pop = x % 10;
+			x /= 10;
+			if(rev > Integer.MAX_VALUE / 10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)){
+				return 0;
+			}
+			if(rev < Integer.MIN_VALUE / 10 || (rev == Integer.MIN_VALUE / 10 && pop < - 8)){
+				return 0;
+			}
+			rev = rev * 10 + pop;
 		}
-		return res;
+		return rev;
 	}
 	
 }
