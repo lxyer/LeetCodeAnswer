@@ -24,6 +24,6 @@ public class TwoSum{
 				}
 			}
 		}
-		return null;
+		throw new IllegalArgumentException("No two sum solution");
 	}
 }
