@@ -24,6 +24,9 @@ package com.leetcode.lxyer.answers;
  * Output: 21
  */
 public class ReverseInteger{
+	/**
+	 * cost
+	 */
 	public int reverse(int x) {
 		
 		return 1;
