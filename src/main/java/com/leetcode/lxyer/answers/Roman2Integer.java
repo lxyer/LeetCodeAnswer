@@ -4,11 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- *
- * @author: xiangyangli
- * Date: 2018/9/19
- * Time: 6:06 PM
  *
  * https://leetcode.com/problems/roman-to-integer/description/
  *
