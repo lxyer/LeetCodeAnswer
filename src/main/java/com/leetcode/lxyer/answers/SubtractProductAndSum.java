@@ -58,7 +58,7 @@ public class SubtractProductAndSum {
         if (n<0){
             n = 0 - n;
         }
-        while (n%10!=0) {
+        while (n>0) {
             int value=n%10;
             sum+=value;
             plus*=value;
