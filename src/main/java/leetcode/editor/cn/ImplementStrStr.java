@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 /**
  * ### [28\. Implement strStr()](https://leetcode.com/problems/implement-strstr/)

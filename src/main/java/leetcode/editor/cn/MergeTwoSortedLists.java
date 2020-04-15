@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 /**
  * ### [21\. 合并两个有序链表Copy for MarkdownCopy for Markdown](https://leetcode-cn.com/problems/merge-two-sorted-lists/)

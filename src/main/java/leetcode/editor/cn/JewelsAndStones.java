@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -85,5 +85,22 @@ public class JewelsAndStones {
             }
             return count;
         }
+    }
+
+    public static class PlusOne {
+        public static void main(String[] args) {
+            Solution solution = new PlusOne().new Solution();
+        }
+
+        //leetcode submit region begin(Prohibit modification and deletion)
+        class Solution {
+            public int[] plusOne(int[] digits) {
+                int a = digits[digits.length - 1] + 1;
+                digits[digits.length - 1] = a;
+                return digits;
+            }
+        }
+    //leetcode submit region end(Prohibit modification and deletion)
+
     }
 }

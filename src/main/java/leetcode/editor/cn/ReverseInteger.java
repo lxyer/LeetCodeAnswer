@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 /**
  * ### [LCP 1\. 猜数字](https://leetcode-cn.com/problems/guess-numbers/)

@@ -1,4 +1,4 @@
-package com.leetcode.lxyer.answers;
+package leetcode.editor.cn;
 
 /**
  * https://leetcode.com/problems/palindrome-number/description/
