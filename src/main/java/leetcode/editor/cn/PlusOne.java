@@ -83,5 +83,4 @@ public class PlusOne {
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
 }
