@@ -25,7 +25,6 @@ public class LengthOfLastWord {
     class Solution {
         public int lengthOfLastWord(String s) {
             return s.trim().length()-s.trim().lastIndexOf(" ")-1;
-
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
