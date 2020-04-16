@@ -34,7 +34,6 @@ public class SearchInsertPosition {
     public static void main(String[] args) {
         Solution solution = new SearchInsertPosition().new Solution();
     }
-
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int searchInsert(int[] nums, int target) {
