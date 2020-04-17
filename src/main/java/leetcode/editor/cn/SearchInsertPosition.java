@@ -27,7 +27,6 @@
 // 
 // Related Topics 数组 二分查找
 
-
 package leetcode.editor.cn;
 
 public class SearchInsertPosition {
