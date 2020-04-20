@@ -29,13 +29,34 @@
 
 package leetcode.editor.cn;
 
+import com.sun.org.apache.bcel.internal.generic.RET;
+
 public class SearchInsertPosition {
     public static void main(String[] args) {
         Solution solution = new SearchInsertPosition().new Solution();
     }
+
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int searchInsert(int[] nums, int target) {
+            if (target < nums[0]) {
+                return 0;
+            }
+            for (int i = 0; i < nums.length; i++) {
+                int num = nums[i];
+                if (target < num) {
+                    continue;
+                }
+                if (target == num) {
+                    return i;
+                }
+                if (target > nums[i - 1] && target < num) {
+                    return i;
+                }
+            }
+            if (target > nums[nums.length]) {
+                return nums.length+1;
+            }
             return 1;
         }
     }
