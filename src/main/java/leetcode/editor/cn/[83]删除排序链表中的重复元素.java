@@ -32,7 +32,6 @@ package leetcode.editor.cn;//存在一个按升序排列的链表，给你这个
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import com.lxyer.leetcodejava.leetcode.editor.cn.base.ListNode;
 
 /**
  * Definition for singly-linked list.

@@ -43,7 +43,6 @@ package leetcode.editor.cn;//给你单链表的头节点 head ，请你反转链
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import com.lxyer.leetcodejava.leetcode.editor.cn.base.ListNode;
 
 /**
  * Definition for singly-linked list.

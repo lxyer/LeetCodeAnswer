@@ -71,7 +71,6 @@ package leetcode.editor.cn;//给你两个单链表的头节点 headA 和 headB �
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import com.lxyer.leetcodejava.leetcode.editor.cn.base.ListNode;
 
 import java.util.HashMap;
 

@@ -23,10 +23,6 @@
 package leetcode.editor.cn;
 
 
-import com.sun.org.apache.regexp.internal.RE;
-
-import java.lang.reflect.Array;
-
 public class PlusOne {
     public static void main(String[] args) {
         Solution solution = new PlusOne().new Solution();
